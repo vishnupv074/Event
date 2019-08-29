@@ -1,0 +1,298 @@
+{% load staticfiles %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Vitez Event</title>
+
+    <!-- Enable zoom on mobile device
+	========================================	 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700" rel="stylesheet">
+
+    <!-- Animate css -->
+    <link rel="stylesheet" href="{% static 'css/animate.min.css' %}">
+
+    <!-- Icofont -->
+    <link rel="stylesheet" href="{% static 'css/icofont.css' %}">
+
+    <!-- Mean menu -->
+    <link rel="stylesheet" href="{% static 'css/meanmenu.css' %}">
+
+    <!-- venobox -->
+    <link rel="stylesheet" href="{% static 'css/venobox.css' %}">
+
+    <!-- magnific -->
+    <link rel="stylesheet" href="{% static 'css/magnific-popup.css' %}">
+
+    <!-- Owl carosel css -->
+    <link rel="stylesheet" href="{% static 'css/owl.carousel.min.css' %}">
+
+    <!-- Layout/Bootstrap -->
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+
+    <!-- Default css -->
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+
+    <!-- fevicon -->
+    <link rel="shortcut icon" type="image/png" href="{% static 'img/fevicon.png' %}">
+</head>
+
+<body class="home1 about">
+    <div id="preloader">
+        <div class="preloader-content">
+            <img src="{% static 'img/preloader.gif' %}" alt="">
+        </div>
+    </div>
+    <!--==================================================
+            Start Header area
+	==================================================-->
+    <header class="header-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2 col-md-2 col-sm-2">
+                    <div class="header-logo">
+                        <a href="index.html">
+                            <img src="{% static 'img/logo.png' %}" alt="logo">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-10 col-md-10 col-sm-10">
+                    <nav class="mainmenu">
+                        <ul>
+                            <li><a href="/event">Home</a></li>
+                            <li><a href="/event/about_view">About</a></li>
+                            <li class="active"> <a href="/event/contact_view">contact us </a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+
+        <!-- Start mobile menu -->
+        <div class="mobile-menu-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="mobile-menu">
+                            <nav id="dropdown">
+                                <ul>
+                                    <li><a href="/event">Home</a></li>
+                                    <li><a href="/event/about_view">About</a></li>
+                                    <li class="active"> <a href="/event/contact_view">contact us </a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End mobile menu -->
+    </header>
+    <!--==================================================
+            End Header area
+	==================================================-->
+
+    <!--==================================================
+            Start Banner area
+	==================================================-->
+    <div class="page-banner-area">
+        <div class="container">
+            <div class="col-md-4 col-md-offset-4">
+                <div class="page-banner-content">
+                    <div class="section-title">
+                        <h2>Contact US</h2>
+                    </div>
+                    <div class="other-page">
+                        <ul>
+                            <li>
+                                <a href="/event">Home</a>
+                            </li>
+                            <li class="active">
+                                <a href="#">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--==================================================
+            End Banner area
+	==================================================-->
+
+    <!--==================================================
+            Start AboutEvent area
+	==================================================-->
+    <section class="contact-section">
+        <div class="container">
+            <div class="row clearfix">
+                <!--Column-->
+                <div class="column col-md-8 col-sm-12 col-xs-12">
+                    <h2>Get in Touch</h2>
+                    <div class="text">if you want to get more info, ping us now.</div>
+                    <!-- Contact Form -->
+                    <div class="contact-form">
+                        <!--Contact Form-->
+                        <form method="post" action="" id="contact-form">
+                            <div class="row clearfix">
+                                <div class="col-md-6 col-sm-6 col-xs-12 form-group">
+                                    <input type="text" name="username" placeholder="Name" required>
+                                </div>
+
+                                <div class="col-md-6 col-sm-6 col-xs-12 form-group">
+                                    <input type="email" name="email" placeholder="Email" required>
+                                </div>
+
+                                <div class="col-md-12 col-sm-12 col-xs-12 form-group">
+                                    <input type="text" name="subject" placeholder="Subject" required>
+                                </div>
+
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 form-group">
+                                    <textarea name="message" placeholder="Massage"></textarea>
+                                </div>
+
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 form-group text-right">
+                                    <button class="theme-btn btn-style-one" type="submit" name="submit-form">Send Now</button>
+                                </div>
+
+                            </div>
+                        </form>
+
+                    </div>
+                    <!--End Contact Form -->
+                </div>
+                <!--Column-->
+                <div class="column col-md-4 col-sm-12 col-xs-12">
+                    <h2>Contact info</h2>
+                    <div class="text">if you want to get more info, ping us now.</div>
+                    <ul class="list-style-two">
+                        <li><strong>+91 6235 035 900,+91 495 243 5359</strong>Mon-Fri, 9am until 6pm</li>
+                        <li><strong>info@vitezlab.com</strong>We reply within 24 hours</li>
+                        <li><strong>Address</strong>Door. No. 1518, 5th Floor, Cafit Square, Hilite Business Park Hilite City, Calicut-673014,Kerala, India.</li>
+                    </ul>
+                    <ul class="social-icon-two">
+                        <li><a href="#"><span class="fa fa-facebook"></span></a></li>
+                        <li><a href="#"><span class="fa fa-twitter"></span></a></li>
+                        <li><a href="#"><span class="fa fa-google-plus"></span></a></li>
+                        <li><a href="#"><span class="fa fa-pinterest-p"></span></a></li>
+                        <li><a href="#"><span class="fa fa-dribbble"></span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--==================================================
+            End AboutEvent area
+	==================================================-->
+
+
+
+    <!--==================================================
+            Start Footer Area
+	==================================================-->
+    <div class="footer-area">
+        <div class="footer-top-area">
+            <div class="pattern-top">
+                <div class="patter-inner">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+            </div>
+            <div class="pattern-bottom">
+                <div class="patter-inner">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
+                        <div class="footer-top-content">
+                            <div class="footer-logo">
+                                <a href="index.html">
+                                    <img src="{% static 'img/logo-ftr.png' %}" alt="alt">
+                                </a>
+                            </div>
+                            <div class="footer-desc">
+                                <p>. We are incorporated on 12th October 2018, our intention is to make our presence felt among the masses by helping them to avail the benefits of technological developments. </p>
+                            </div>
+                            <div class="footer-social-icon">
+                                <a href="#">
+                                    <i class="icofont icofont-social-facebook "></i>
+                                </a>
+                                <a href="#">
+                                    <i class="icofont icofont-brand-youtube"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="icofont icofont-brand-linkedin"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="icofont icofont-social-twitter"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="icofont icofont-social-pinterest"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="icofont icofont-social-google-plus"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom-area">
+            <p>
+               Copyright © 2019 Vitez Softwarelab. Designed and Developed by Vitez
+            </p>
+        </div>
+    </div>
+    <!--==================================================
+            End Footer Area
+	==================================================-->
+
+    <!-- Vendor js -->
+    <script src="{% static 'js/vendor/jquery-1.12.1.min.js' %}"></script>
+
+    <!-- Bootstrap js -->
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+
+    <!-- Mean menu -->
+    <script src="{% static 'js/jquery.meanmenu.min.js' %}"></script>
+
+    <!-- owl carousel js -->
+    <script src="{% static 'js/owl.carousel.min.js' %}"></script>
+
+    <!-- owl carousel js -->
+    <script src="{% static 'js/jquery.mixitup.min.js' %}"></script>
+
+    <!-- wow js -->
+    <script src="{% static 'js/wow.js' %}"></script>
+
+    <!-- easing js -->
+    <script src="{% static 'js/jquery.easing.min.js' %}"></script>
+
+    <!-- waypoint -->
+    <script src="{% static 'js/waypoints.min.js' %}"></script>
+
+    <!-- waypoint -->
+    <script src="{% static 'js/jquery.magnific-popup.min.js' %}"></script>
+
+    <!--  Google map api  -->
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+
+    <!-- countdown -->
+    <script src="{% static 'js/jquery.countdown.js' %}"></script>
+
+    <!-- main js -->
+    <script src="{% static 'js/main.js' %}"></script>
+</body>
+
+</html>
